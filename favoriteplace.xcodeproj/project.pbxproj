@@ -14,6 +14,7 @@
 		D624697F1BF3D5F7007612C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D624697D1BF3D5F7007612C7 /* LaunchScreen.storyboard */; };
 		D624698A1BF3D5F7007612C7 /* favoriteplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62469891BF3D5F7007612C7 /* favoriteplaceTests.swift */; };
 		D62469951BF3D5F7007612C7 /* favoriteplaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62469941BF3D5F7007612C7 /* favoriteplaceUITests.swift */; };
+		D62469A31BF3DCC0007612C7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62469A21BF3DCC0007612C7 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D62469901BF3D5F7007612C7 /* favoriteplaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = favoriteplaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62469941BF3D5F7007612C7 /* favoriteplaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteplaceUITests.swift; sourceTree = "<group>"; };
 		D62469961BF3D5F7007612C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62469A21BF3DCC0007612C7 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D624697B1BF3D5F7007612C7 /* Assets.xcassets */,
 				D624697D1BF3D5F7007612C7 /* LaunchScreen.storyboard */,
 				D62469801BF3D5F7007612C7 /* Info.plist */,
+				D62469A21BF3DCC0007612C7 /* DetailVC.swift */,
 			);
 			path = favoriteplace;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				D62469771BF3D5F7007612C7 /* ViewController.swift in Sources */,
 				D62469751BF3D5F7007612C7 /* AppDelegate.swift in Sources */,
+				D62469A31BF3DCC0007612C7 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
